@@ -1,39 +1,74 @@
+@import './header';
+@import './home';
+@import './description';
+@import './about';
+@import './service';
+@import './contact';
+@import './footer';
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
 
-header{
-    height: 100px;
-    background-color: #9763FD;
-    backdrop-filter: blur(5px);
-    z-index: 999;
-    width: 100%;
-    position: fixed;
-}
-
-#home {
-    height: 100vh;
-    background-color: #000000;  
-}
-
-#description{
-    height: 100vh;
-    background-color: #9763FD;
-}
-
-#about{
-    height: 100vh;
-    background-color: #ffffff;
-}
-
-#service{
-    height: 100vh;
+  ::selection {
+    background-color: #1bd879;
+    color: #fff;
+  }
+  ul,
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  button,
+  input {
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  button:focus,
+  input:focus {
+    border: 0;
+  }
+  body {
+    font-family: "Poppins";
+    background-color: #fff;
+    overflow-x: hidden;
+  }
+  html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
     background-color: #000000;
-}
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #272727;
+    border-radius: 8px;
+  }
 
-#contato{
-    height: 100vh;
-    background-color: #9763FD;
-}
+  .layout {
+    max-width: 1400px;
+    margin: 0 auto;
+  } /*# sourceMappingURL=style.css.map */
