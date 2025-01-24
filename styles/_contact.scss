@@ -1,4 +1,53 @@
-#contato{
+#contact{
     height: 100vh;
     background-color: #9763FD;
+    display: flex;
+}
+
+#contact .layout{
+    display: flex;
+    align-items: center;
+}
+
+#contact .layout div{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+}
+
+#contact .layout div h1{
+    font-size: 10rem;
+}
+
+#contact .layout div #container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#contact .layout div #container img{
+    border-radius: 0% 0% 100% 100%;
+    width: 400px;
+}
+
+#contact .layout div #container div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-bottom: 100px;
+    
+}
+
+#contact .layout div #container h6{
+    font-size: 2rem;
+    padding-left: 200px;
+}
+
+#contact .layout div #container p{
+    font-size: 2rem;
+    padding-left: 200px;
 }
