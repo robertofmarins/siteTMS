@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100px;
+  background-color: #9763FD;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  z-index: 999;
+  width: 100%;
+  position: fixed;
+}
+
+#home {
+  height: 100vh;
+  background-color: #000000;
+}
+
+#description {
+  height: 100vh;
+  background-color: #9763FD;
+}
+
+#about {
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+#service {
+  height: 100vh;
+  background-color: #000000;
+}
+
+#contato {
+  height: 100vh;
+  background-color: #9763FD;
+}/*# sourceMappingURL=styles.css.map */
