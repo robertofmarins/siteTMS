@@ -223,6 +223,7 @@ header .layout nav .nav-list li a:hover {
   padding: 10px;
   border-radius: 25px;
   margin-left: 20px;
+  text-align: center;
 }
 
 #service .layout div div div p {
