@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 header {
   height: 100px;
   background-color: #9763FD;
@@ -49,6 +50,57 @@ header .layout nav .nav-list li a:hover {
 #home {
   height: 100vh;
   background-color: #000000;
+  display: flex;
+}
+
+#home .layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(0, 0, 0);
+}
+
+#home .layout div {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  width: 40%;
+}
+
+#home .layout div h1 {
+  color: white;
+  font-size: 7rem;
+  margin-bottom: 40px;
+  line-height: 1;
+}
+
+#home .layout div p {
+  color: white;
+  font-size: 2rem;
+}
+
+#home .layout div button {
+  margin-top: 60px;
+  background-color: #9763FD;
+  width: 180px;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#home .layout div button:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#home .layout div img {
+  width: 800px;
 }
 
 #description {
@@ -117,7 +169,7 @@ h6 {
 button,
 input {
   border: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Poppins;
 }
 
 button:focus,
