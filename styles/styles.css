@@ -135,6 +135,38 @@ header .layout nav .nav-list li a:hover {
 #about {
   height: 100vh;
   background-color: #ffffff;
+  display: flex;
+}
+
+#about .layout {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+#about .layout div {
+  width: 50%;
+  height: 100vh;
+}
+
+#about .layout div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#about .layout div h1 {
+  font-size: 10rem;
+  padding: 20px;
+  text-align: center;
+}
+
+#about .layout div p {
+  padding: 20px;
+  font-size: 2rem;
+  text-align: center;
 }
 
 #service {
