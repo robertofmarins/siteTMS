@@ -13,6 +13,9 @@
 }
 
 #about .layout div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 50%;
     height: 100vh;
 
@@ -26,7 +29,7 @@ object-fit: cover;
 
 #about .layout div h1{
     font-size: 10rem;
-    padding: 20px;
+    padding: 50px;
     text-align: center;
 
 }
