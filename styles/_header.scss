@@ -9,17 +9,12 @@ header{
 
 header .layout nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
     height: 100px;
     padding: 0px 8px;
     width: 100%;
-    background-color: #178f3100;
-  }
-  
-  header .layout nav #logo {
-    width: 3%;
   }
   
   header .layout nav .nav-list {
