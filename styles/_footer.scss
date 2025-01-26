@@ -4,20 +4,21 @@ footer {
     text-align: center;
   }
 
-  .footer-container {
+  footer .layout {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
-  .footer-logo {
+  footer .layout img {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
-    width: 100px;
+    width: 10%;
   }
 
-  .footer-copyright {
-    font-size: 14px;
+ footer .layout p{
+    font-size: 1vw;
     color: #B0B0B0;
     
     display: flex;
