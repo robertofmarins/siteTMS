@@ -38,3 +38,9 @@ header .layout nav {
   header .layout nav .nav-list li a:hover {
     background: #1a191f;
   }
+
+  @media (max-width: 700px){
+    header{
+      display: none;
+    }
+  }
