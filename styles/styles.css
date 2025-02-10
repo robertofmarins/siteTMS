@@ -71,7 +71,7 @@ header .layout nav .nav-list li a:hover {
 }
 
 #home .layout div h1 {
-  color: white;
+  color: rgb(209, 139, 139);
   font-size: 3.9vw;
   margin-bottom: 40px;
   line-height: 1;
