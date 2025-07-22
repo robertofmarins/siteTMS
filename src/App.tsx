@@ -77,9 +77,13 @@ function App() {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex items-center">
-              <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-2 rounded-lg">
-                <Building2 className="w-6 h-6" />
-              </div>
+              
+                <img 
+                  src="../../public/logop.png" 
+                  alt="Descrição da imagem" 
+                  className="w-10 h-10 object-contain rounded-lg"
+                />
+              
               <span className={`ml-3 text-xl font-bold transition-colors ${
                 scrollY > 50 ? 'text-gray-900' : 'text-white'
               }`}>
@@ -295,7 +299,7 @@ function App() {
               <div className="relative">
                 <div className="aspect-square rounded-3xl bg-gradient-to-br from-purple-100 to-blue-100 p-2">
                   <img 
-                    src="https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                    src="../../public/thais.png" 
                     alt="Thais Meirelles - Engenheira Civil" 
                     className="w-full h-full object-cover rounded-2xl shadow-lg"
                   />
@@ -489,9 +493,11 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">
-              <div className="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-2 rounded-lg mr-3">
-                <Building2 className="w-6 h-6" />
-              </div>
+              <img 
+                  src="../../public/logop.png" 
+                  alt="Descrição da imagem" 
+                  className="w-10 h-10 object-contain rounded-lg"
+                />
               <span className="text-xl font-bold">TMS Engenharia</span>
             </div>
             
