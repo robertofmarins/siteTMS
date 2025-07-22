@@ -79,7 +79,7 @@ function App() {
             <div className="flex items-center">
               
                 <img 
-                  src="../../public/logop.png" 
+                  src="/logop.png" 
                   alt="Descrição da imagem" 
                   className="w-10 h-10 object-contain rounded-lg"
                 />
@@ -299,7 +299,7 @@ function App() {
               <div className="relative">
                 <div className="aspect-square rounded-3xl bg-gradient-to-br from-purple-100 to-blue-100 p-2">
                   <img 
-                    src="../../public/thais.png" 
+                    src="/thais.png" 
                     alt="Thais Meirelles - Engenheira Civil" 
                     className="w-full h-full object-cover rounded-2xl shadow-lg"
                   />
@@ -494,7 +494,7 @@ function App() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">
               <img 
-                  src="../../public/logop.png" 
+                  src="/logop.png" 
                   alt="Descrição da imagem" 
                   className="w-10 h-10 object-contain rounded-lg"
                 />
